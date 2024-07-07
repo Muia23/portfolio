@@ -6,16 +6,12 @@ import { About, Contact, Experience, Feedbacks, Hero, Navbar, Tech, Works, Stars
 const App = () => {  
   return (    
       <BrowserRouter>
-        <div className='overflow-x-hidden bg-[#030014]'>
-          {/* <div className='bg-hero-pattern bg-cover bg-no-repeat bg-center'>
-            <Navbar />
-            <Hero />
-          </div> */}                
+        <div className='overflow-x-hidden bg-[#030014]'>                   
           <div className='relative z-50'>
             <Navbar />    
           </div>          
           <div className='relative z-0'>                                  
-            <StarsCanvas />
+            {/* <StarsCanvas /> */}
             <div className='flex flex-col gap-20'>
               <Hero />                            
             </div>                        
@@ -26,11 +22,10 @@ const App = () => {
             <Encryption />
             <Experience />
           </div>          
-          <Works />
-          {/* <Feedbacks /> */}
+          <Works />            
           <div className='relative z-0'>
             <Contact />            
-            <StarsCanvas />
+            {/* <StarsCanvas /> */}
           </div>          
         </div>
       </BrowserRouter>        
