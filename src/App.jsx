@@ -11,7 +11,7 @@ const App = () => {
             <Navbar />    
           </div>          
           <div className='relative z-0'>                                  
-            {/* <StarsCanvas /> */}
+            <StarsCanvas />
             <div className='flex flex-col gap-20'>
               <Hero />                            
             </div>                        
@@ -25,7 +25,7 @@ const App = () => {
           <Works />            
           <div className='relative z-0'>
             <Contact />            
-            {/* <StarsCanvas /> */}
+            <StarsCanvas />
           </div>          
         </div>
       </BrowserRouter>        
