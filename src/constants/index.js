@@ -153,18 +153,18 @@ const technologies = [
     },
 ];
 
-const experiences = [
+const experiences = [    
     {
-        title: "Information Technology Intern",
-        company_name: "Shalom Community Hospital",
-        icon: shalomHospital,
+        title: "Software Developer",
+        company_name: "Fintech-Group",
+        icon: fintechLimited,
         iconBg: "#E6DEDD",
-        date: "Feb 2020 - Apr 2020",
+        date: "Jan 2023 - Present",
         points: [
-            "Learning and applying new technologies to improve hospital IT infrastructure.",
-            "Providing technical support to staff and resolving IT-related issues.",
-            "Assisting in managing and maintaining the hospital's database systems.",
-            "Participating in IT projects to improve overall efficiency.",
+            "Developing and maintaining web applications using React.js and other related technologies.",
+            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+            "Implementing responsive design and ensuring cross-browser compatibility.",
+            "Participating in code reviews and providing constructive feedback to other developers.",
         ],
     },
     {
@@ -179,20 +179,7 @@ const experiences = [
             "Identifying areas for modification in existing programs and developing necessary changes.",
             "Developing and maintaining quality assurance procedures.",
         ],
-    },
-    {
-        title: "Software Developer",
-        company_name: "Fintech-Group",
-        icon: fintechLimited,
-        iconBg: "#E6DEDD",
-        date: "Jan 2023 - Present",
-        points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
-        ],
-    },
+    }    
 ];
 
 const testimonials = [
