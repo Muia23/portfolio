@@ -16,9 +16,7 @@ const HeroContent = () => {
             Wilfred
             </span>
             <span className="text-lg text-gray-400 my-5 max-w-[600px]">
-                A dedicated full-stack developer,           
-                committed to creating impactful projects            
-                that benefit our society.
+                A full-stack developer with a gravity for great ideas, pulling them into reality one line of code at a time. Let’s launch something amazing together!
             </span>
         </motion.div>        
         <motion.div
